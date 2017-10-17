@@ -1,0 +1,2 @@
+C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.UWP\RedButton_Tablet.UWP.csproj;x86
+C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet\RedButton_Tablet.csproj;neutral

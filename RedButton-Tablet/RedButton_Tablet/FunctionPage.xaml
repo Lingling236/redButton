@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage 
+             Title="Dr.Apple"
+             xmlns:local="clr-namespace:RedButton_Tablet"
+             NavigationPage.HasNavigationBar="False"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RedButton_Tablet.FunctionPage">
+
+    <local:ProQA Title="Pro QA" />
+     <local:Set1_1 Title="SET 1"/>
+    <ContentPage Title="SET 2 "/>
+    
+  
+  
+</TabbedPage>

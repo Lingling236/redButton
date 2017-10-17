@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RedButton_Tablet.Set1_2">
+    <StackLayout Padding="10,10,0,0">
+        <Label Text="2.Blood pressure" FontAttributes="Bold" FontSize="Large"/>
+        <StackLayout Orientation="Horizontal" Padding="0,20,0,0">
+            <Entry  x:Name="bpressure" Keyboard="Numeric" WidthRequest="200" TextChanged="Entry_TextChanged"/>
+            <Label Text="mm Hg" HorizontalOptions="End"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" Spacing="40">
+            <Button Text="Previous" Clicked="Previous_Clicked"/>
+            <Button Text="Next" Clicked="Next_Clicked"/>
+
+        </StackLayout>
+
+    </StackLayout>
+</ContentPage>

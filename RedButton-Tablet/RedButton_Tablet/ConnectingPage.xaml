@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+             Title="Red Button"
+             NavigationPage.HasBackButton="False"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RedButton_Tablet.ConnectingPage">
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Padding="40">
+        <Label FontSize="Large" Text="Connecting Physician?"/>
+        <StackLayout Orientation="Horizontal"  Spacing="30" Padding="0,30,0,0">
+            <Button Text="Cancel" Clicked="Cancel_Clicked"/>
+            <Button Text="Ok" Clicked="Ok_Clicked"/>
+        </StackLayout>
+               
+    </StackLayout>
+</ContentPage>
