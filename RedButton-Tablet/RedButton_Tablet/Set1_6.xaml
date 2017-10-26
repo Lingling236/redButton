@@ -5,7 +5,7 @@
     <StackLayout Padding="10,10,0,0">
         <Label Text="6.Blood sugar" FontAttributes="Bold" FontSize="Large"/>
         <StackLayout Orientation="Horizontal" Padding="0,20,0,0">
-            <Entry Keyboard="Numeric" WidthRequest="200"/>
+            <Entry Keyboard="Numeric" WidthRequest="200" TextChanged="Entry_TextChanged"/>
             <Label Text="mg/dl" HorizontalOptions="End"/>
         </StackLayout>
         <StackLayout Orientation="Horizontal" Spacing="40">
@@ -13,6 +13,7 @@
             <Button Text="Done" Clicked="Done_Clicked"/>
 
         </StackLayout>
+      
 
     </StackLayout>
 </ContentPage>

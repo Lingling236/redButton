@@ -12,6 +12,7 @@ namespace RedButton_Tablet
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Set1_1 : ContentPage
 	{
+        private string _generalCondition;
 		public Set1_1 ()
 		{
 			InitializeComponent ();
@@ -22,7 +23,12 @@ namespace RedButton_Tablet
         }
        async void Next_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new Set1_2());
+            await Navigation.PushModalAsync(new Set1_2(_generalCondition));
+        }
+
+        private void Editor_TextChanged(object sender, TextChangedEventArgs e)
+        {
+          _generalCondition= e.NewTextValue;
         }
     }
 }

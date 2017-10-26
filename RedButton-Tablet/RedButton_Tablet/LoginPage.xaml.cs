@@ -9,12 +9,12 @@ using Xamarin.Forms.Xaml;
 
 namespace RedButton_Tablet
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
+    [XamlCompilation(XamlCompilationOptions.Skip)]
     public partial class LoginPage : ContentPage
     {
         public LoginPage()
         {
-            InitializeComponent();
+            InitializeComponent ();
         }
 
         void Cancel_Clicked(object sender, EventArgs e)
@@ -31,9 +31,6 @@ namespace RedButton_Tablet
 
         }
 
-         void Entry_Completed(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

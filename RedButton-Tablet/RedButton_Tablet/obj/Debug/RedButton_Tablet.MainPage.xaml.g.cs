@@ -11,7 +11,7 @@
 namespace RedButton_Tablet {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("c:\\users\\ling\\source\\repos\\RedButton-Tablet\\RedButton-Tablet\\RedButton_Tablet\\Mai" +
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Ling\\source\\repos\\RedButton-Tablet\\RedButton-Tablet\\RedButton_Tablet\\Mai" +
         "nPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         

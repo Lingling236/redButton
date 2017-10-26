@@ -11,7 +11,7 @@
 namespace RedButton_Tablet {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("c:\\users\\ling\\source\\repos\\RedButton-Tablet\\RedButton-Tablet\\RedButton_Tablet\\App" +
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Ling\\source\\repos\\RedButton-Tablet\\RedButton-Tablet\\RedButton_Tablet\\App" +
         ".xaml")]
     public partial class App : global::Xamarin.Forms.Application {
         

@@ -11,9 +11,14 @@ namespace RedButton_Tablet
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Set1_3 : ContentPage
-	{
-		public Set1_3 ()
-		{
+    {
+        private string _generalCondition;
+        private double  _bPressure;
+        private double  _heartrate;
+		public Set1_3 (string generalCondition, double bpressure)
+        {
+            _generalCondition = generalCondition;
+            _bPressure = bpressure;
 			InitializeComponent ();
 		}
         async void Previous_Clicked(object sender, EventArgs e)
@@ -22,7 +27,14 @@ namespace RedButton_Tablet
         }
         async void Next_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new Set1_4());
+            await Navigation.PushModalAsync(new Set1_4(_generalCondition, _bPressure, _heartrate));
+        }
+
+      
+
+        private void Entry_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            _heartrate =Convert.ToDouble( e.NewTextValue);
         }
     }
 }

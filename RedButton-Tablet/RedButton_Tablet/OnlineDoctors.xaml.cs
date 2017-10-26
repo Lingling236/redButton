@@ -12,13 +12,17 @@ namespace RedButton_Tablet
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class OnlineDoctors : ContentPage
     {
+       
         public OnlineDoctors()
         {
             InitializeComponent();
             image.Source = ImageSource.FromResource("RedButton_Tablet.Images.doctor.jpg");
-            
-            
-        }
+             
+
+
+
+
+    }
 
         async void Cancel_Clicked(object sender, EventArgs e)
         {

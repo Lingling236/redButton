@@ -5,37 +5,38 @@
              xmlns:local="clr-namespace:RedButton_Tablet">
     <StackLayout Padding="10,10,0,0">
         <StackLayout Padding="10,10,0,0">
-            <Label Text="1. General condition"/>
-            <Editor x:Name="editor"/>
+            <Label Text="1. General condition" />
+            <Editor x:Name="editor" Text="{Binding GeneralCondition}"/>
         </StackLayout>
         <StackLayout Orientation="Horizontal" Padding="10,10,0,0" />
-        <Label Text="2.Blood pressure"/>
-        <Entry WidthRequest="100"  Placeholder="{Binding Value, Mode=TwoWay}"/>
+        <Label Text="2.Blood pressure" />
+        <Entry x:Name="bloodPressure" WidthRequest="100" Text="{Binding BloodPressure}"/>
         <Label Text="mm Hg"/>
 
         <StackLayout Orientation="Horizontal" Padding="10,10,0,0">
             <Label Text="3.Heartrate"/>
-            <Entry x:Name="heartrate " WidthRequest="100"/>
+            <Entry x:Name="heartrate " WidthRequest="100" Text="{Binding HeartRate}"/>
             <Label Text="bpm"/>
         </StackLayout>
         <StackLayout Orientation="Horizontal" Padding="10,10,0,0">
             <Label Text="4.Respiratory rate"/>
-            <Entry x:Name="respiratory" WidthRequest="100"/>
+            <Entry x:Name="respiratory" WidthRequest="100" Text="{Binding RespiratoryRate}"/>
             <Label Text="breathes per minute"/>
         </StackLayout>
         <StackLayout Orientation="Horizontal" Padding="10,10,0,0">
             <Label Text="5.SpO2"/>
-            <Entry x:Name="o2 " WidthRequest="100"/>
+            <Entry x:Name="o2 " WidthRequest="100" Text="{Binding SpO2}"/>
             <Label Text="%"/>
         </StackLayout>
         <StackLayout Orientation="Horizontal" Padding="10,10,0,0">
             <Label Text="6.Blood sugar"/>
-            <Entry x:Name="bsugar" WidthRequest="100"/>
+            <Entry x:Name="bsugar" WidthRequest="100" Text="{Binding BloodSugar}"/>
             <Label Text="mg/dl"/>
         </StackLayout>
         <StackLayout  Orientation="Horizontal"    Spacing="150" Padding="10,10,0,0">
             <Button Text="Return" Clicked="Button_Clicked"/>
             <Button Text="Send"  Clicked="Button_Clicked_1"/>
         </StackLayout>
+       
     </StackLayout>
 </ContentPage>

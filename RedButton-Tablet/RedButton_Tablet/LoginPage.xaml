@@ -6,7 +6,7 @@
              x:Class="RedButton_Tablet.LoginPage">
     <StackLayout HorizontalOptions="Center" Spacing="15" Padding="0,50,0,0">
         <Label  Text="Name:"/>
-        <Entry x:Name="Name" Keyboard="Default"  Completed="Entry_Completed"/>
+        <Entry x:Name="Name" Keyboard="Default" />
         <Label  Text="Password: "/>
         <Entry  x:Name="Password" IsPassword="True" />
         <StackLayout Orientation="Horizontal" Spacing="30" Padding="0,30,0,0">
