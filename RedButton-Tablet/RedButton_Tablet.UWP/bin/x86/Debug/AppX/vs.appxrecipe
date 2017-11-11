@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-10-24T15:33:40.454</Modified>
+      <Modified>2017-11-03T23:44:44.868</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.UWP\bin\x86\Debug\RedButton_Tablet.UWP.exe">
       <PackagePath>entrypoint\RedButton_Tablet.UWP.exe</PackagePath>
-      <Modified>2017-10-24T15:33:38.552</Modified>
+      <Modified>2017-11-03T23:44:43.746</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ling\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -167,10 +167,6 @@
       <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
       <Modified>2016-06-11T21:13:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ling\.nuget\packages\runtime.win.System.Console\4.0.0\runtimes\win\lib\netcore50\System.Console.dll">
-      <PackagePath>System.Console.dll</PackagePath>
-      <Modified>2016-06-11T21:13:24.000</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ling\.nuget\packages\runtime.win.System.Diagnostics.Debug\4.0.11\runtimes\win\lib\netcore50\System.Diagnostics.Debug.dll">
       <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
       <Modified>2016-06-11T21:13:26.000</Modified>
@@ -202,30 +198,6 @@
     <AppxPackagedFile Include="C:\Users\Ling\.nuget\packages\runtime.win7.System.Private.Uri\4.0.2\runtimes\win\lib\netcore50\System.Private.Uri.dll">
       <PackagePath>System.Private.Uri.dll</PackagePath>
       <Modified>2016-07-01T13:48:12.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ling\.nuget\packages\sqlite-net-pcl\1.4.118\lib\netstandard1.1\SQLite-net.dll">
-      <PackagePath>SQLite-net.dll</PackagePath>
-      <Modified>2017-07-27T14:44:06.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ling\.nuget\packages\SQLitePCLRaw.bundle_green\1.1.5\lib\uap10.0\SQLitePCLRaw.batteries_green.dll">
-      <PackagePath>SQLitePCLRaw.batteries_green.dll</PackagePath>
-      <Modified>2017-05-01T11:27:04.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ling\.nuget\packages\SQLitePCLRaw.bundle_green\1.1.5\lib\uap10.0\SQLitePCLRaw.batteries_v2.dll">
-      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
-      <Modified>2017-05-01T11:27:04.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ling\.nuget\packages\SQLitePCLRaw.core\1.1.5\lib\uap10.0\SQLitePCLRaw.core.dll">
-      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
-      <Modified>2017-05-01T11:27:02.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ling\.nuget\packages\SQLitePCLRaw.lib.e_sqlite3.v140\1.1.5\runtimes\win10-x86\native\e_sqlite3.dll">
-      <PackagePath>e_sqlite3.dll</PackagePath>
-      <Modified>2017-05-01T11:27:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ling\.nuget\packages\SQLitePCLRaw.provider.e_sqlite3.uwp10\1.1.5\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
-      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
-      <Modified>2017-05-01T11:27:24.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ling\.nuget\packages\System.AppContext\4.1.0\lib\netcore50\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
@@ -403,10 +375,6 @@
       <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
       <Modified>2016-06-11T21:14:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ling\.nuget\packages\System.Runtime.InteropServices.RuntimeInformation\4.0.0\runtimes\win\lib\netcore50\System.Runtime.InteropServices.RuntimeInformation.dll">
-      <PackagePath>System.Runtime.InteropServices.RuntimeInformation.dll</PackagePath>
-      <Modified>2016-06-11T21:14:28.000</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ling\.nuget\packages\System.Runtime.InteropServices.WindowsRuntime\4.0.1\lib\netcore50\System.Runtime.InteropServices.WindowsRuntime.dll">
       <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
       <Modified>2016-06-11T21:14:26.000</Modified>
@@ -527,25 +495,25 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T21:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ling\.nuget\packages\Xamarin.Forms\2.4.0.282\lib\uap10.0\Xamarin.Forms.Core.dll">
+    <AppxPackagedFile Include="C:\Users\Ling\.nuget\packages\Xamarin.Forms\2.4.0.38779\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
-      <Modified>2017-09-29T08:43:20.000</Modified>
+      <Modified>2017-10-27T12:28:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ling\.nuget\packages\Xamarin.Forms\2.4.0.282\lib\uap10.0\Xamarin.Forms.Platform.UAP.dll">
+    <AppxPackagedFile Include="C:\Users\Ling\.nuget\packages\Xamarin.Forms\2.4.0.38779\lib\uap10.0\Xamarin.Forms.Platform.UAP.dll">
       <PackagePath>Xamarin.Forms.Platform.UAP.dll</PackagePath>
-      <Modified>2017-09-29T08:43:20.000</Modified>
+      <Modified>2017-10-27T12:28:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ling\.nuget\packages\Xamarin.Forms\2.4.0.282\lib\uap10.0\Xamarin.Forms.Platform.dll">
+    <AppxPackagedFile Include="C:\Users\Ling\.nuget\packages\Xamarin.Forms\2.4.0.38779\lib\uap10.0\Xamarin.Forms.Platform.dll">
       <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
-      <Modified>2017-09-29T08:43:20.000</Modified>
+      <Modified>2017-10-27T12:28:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ling\.nuget\packages\Xamarin.Forms\2.4.0.282\lib\uap10.0\Xamarin.Forms.Xaml.dll">
+    <AppxPackagedFile Include="C:\Users\Ling\.nuget\packages\Xamarin.Forms\2.4.0.38779\lib\uap10.0\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
-      <Modified>2017-09-29T08:43:20.000</Modified>
+      <Modified>2017-10-27T12:28:48.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet\bin\Debug\RedButton_Tablet.dll">
       <PackagePath>RedButton_Tablet.dll</PackagePath>
-      <Modified>2017-10-24T12:25:54.316</Modified>
+      <Modified>2017-11-03T23:44:41.639</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -709,18 +677,18 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-08-18T00:28:05.895</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ling\.nuget\packages\Xamarin.Forms\2.4.0.282\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Ling\.nuget\packages\Xamarin.Forms\2.4.0.38779\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
-      <Modified>2017-09-29T08:43:20.000</Modified>
+      <Modified>2017-10-27T12:28:48.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-10-24T15:33:39.950</Modified>
+      <Modified>2017-11-03T23:44:44.525</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.UWP\bin\x86\Debug\Core\RedButton_Tablet.UWP.exe">
       <PackagePath>RedButton_Tablet.UWP.exe</PackagePath>
-      <Modified>2017-10-24T15:33:40.434</Modified>
+      <Modified>2017-11-03T23:44:44.859</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -3,22 +3,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="RedButton_Tablet.ProQA">
 
-    <StackLayout HorizontalOptions="Center"  Padding="0,30,0,0">
-            <Label Text="1.Code" />
+    <StackLayout   Padding="10,30,0,0">
+        <Label Text="1.Name"/>
+          <Entry />
+        <Label Text="1.Code" />
             <Entry />
             <Label Text="2.Age" />
             <Entry Keyboard="Numeric"/>
             <Label Text="3.Gender" />
-            <Picker>
-                <Picker.Items>
-                    <x:String>Male</x:String>
-                    <x:String>Female</x:String>
-                </Picker.Items>
-            </Picker>
-            <StackLayout Orientation="Horizontal" Spacing="40">
-                <Button Text="Cancel" Clicked="Cancel_Clicked"/>
-                <Button Text="Send" Clicked="Send_Clicked"/>
-            </StackLayout>
-        </StackLayout>
+        <Picker>
+            <Picker.Items>
+                <x:String>Male</x:String>
+                <x:String>Female</x:String>
+            </Picker.Items>
+        </Picker>
+        <Button Text="Save" Clicked="Save_Clicked" WidthRequest="200" BorderRadius="50"  BackgroundColor="Bisque"/>
+        <Button Text="Send" Clicked="Send_Clicked" WidthRequest="200" BorderRadius="50"  BackgroundColor="Bisque"/>
+        <Button Text="Cancel" Clicked="Cancel_Clicked" WidthRequest="200" BorderColor="AliceBlue" BorderRadius="50"  BackgroundColor="Bisque"/>
+    </StackLayout>
    
 </ContentPage>

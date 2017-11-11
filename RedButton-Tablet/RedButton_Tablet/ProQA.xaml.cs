@@ -19,9 +19,13 @@ namespace RedButton_Tablet
 
         private void Cancel_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PopAsync();
         }
         private void Send_Clicked(object sender, EventArgs e)
+        {
+
+        }
+        private void Save_Clicked(object sender, EventArgs e)
         {
 
         }

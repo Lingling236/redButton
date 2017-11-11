@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -18,6 +19,9 @@ namespace RedButton_Tablet
             
             
             Set1 set1 = new Set1 { GeneralCondition=generalCondition, BloodPressure=bpressure, HeartRate=heartrate, RespiratoryRate=breath, SpO2=spo2, BloodSugar=bsugar};
+            
+
+
             BindingContext = set1;
             InitializeComponent();
            

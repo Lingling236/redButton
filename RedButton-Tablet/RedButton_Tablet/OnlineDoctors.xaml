@@ -5,13 +5,11 @@
              xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="RedButton_Tablet.OnlineDoctors">
-    <StackLayout  HorizontalOptions="Center" Spacing="20" Padding="20,50">
+    <StackLayout  HorizontalOptions="Center" Spacing="30" Padding="20,50">
         <Image x:Name="image" Aspect="AspectFit"/>
         <Label Text="Dr.Apple is online" FontSize="Medium" TextColor="Black"/>
-        <StackLayout Orientation="Horizontal" Spacing="30">
-            <Button Text="Cancel" Clicked="Cancel_Clicked"/>
-            <Button Text="Ok" Clicked="Ok_Clicked"/>
-        </StackLayout>
-
+        <Button Text="Connect" Clicked="Ok_Clicked" WidthRequest="200" BackgroundColor="DarkOrange"/>
+        <Button Text="Cancel" Clicked="Cancel_Clicked" WidthRequest="200" BackgroundColor="DarkOrange"/>
+       
     </StackLayout>
 </ContentPage>

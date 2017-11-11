@@ -100,12 +100,6 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "RedButton_Tablet.Android.dll" comes first in this list. */
 		"RedButton_Tablet.Android.dll",
 		"FormsViewGroup.dll",
-		"SQLite-net.dll",
-		"SQLitePCLRaw.batteries_green.dll",
-		"SQLitePCLRaw.batteries_v2.dll",
-		"SQLitePCLRaw.core.dll",
-		"SQLitePCLRaw.lib.e_sqlite3.dll",
-		"SQLitePCLRaw.provider.e_sqlite3.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Design.dll",
 		"Xamarin.Android.Support.v4.dll",
@@ -122,5 +116,5 @@ class MonoPackageManager_Resources {
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_23";
+	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_25";
 }

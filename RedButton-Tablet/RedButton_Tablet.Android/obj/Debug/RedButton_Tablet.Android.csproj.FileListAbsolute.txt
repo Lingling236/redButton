@@ -49,11 +49,3 @@ C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.An
 C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
-C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\bin\Debug\SQLite-net.dll
-C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\bin\Debug\SQLitePCLRaw.batteries_green.dll
-C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\bin\Debug\SQLitePCLRaw.batteries_v2.dll
-C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\bin\Debug\SQLitePCLRaw.core.dll
-C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\bin\Debug\SQLitePCLRaw.lib.e_sqlite3.dll
-C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\bin\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
-C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\bin\Debug\SQLite-net.pdb
-C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\bin\Debug\SQLite-net.xml

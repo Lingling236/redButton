@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+             NavigationPage.HasBackButton="False"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RedButton_Tablet.FunctionsPage">
+    
+        <StackLayout  Padding="10,20,0,0" Spacing="30">
+            
+        <Label Text="Choose functions" FontSize="Large" FontAttributes="Bold"/>
+        <StackLayout HorizontalOptions="Center" Spacing="30">
+            <Button  BorderRadius="20" Text="ProQA" WidthRequest="200" Clicked="ProQA_Clicked" BackgroundColor="Gainsboro"/>
+            <Button  BorderRadius="20" Text="Set1" WidthRequest="200" Clicked="Set1_Clicked" BackgroundColor="BurlyWood"/>
+            <Button  BorderRadius="20" Text="Set2" WidthRequest="200" Clicked="Set2_Clicked" BackgroundColor="Coral"/>
+            <Button  BorderRadius="20" Text="View History" WidthRequest="200" Clicked="History_Clicked" BackgroundColor="DarkOrange"/>
+        </StackLayout>
+         </StackLayout>
+   
+</ContentPage>

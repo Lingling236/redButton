@@ -31,7 +31,7 @@ namespace RedButton_Tablet
 
         async void Ok_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new FunctionPage());
+            await Navigation.PushAsync(new FunctionsPage());
         }
     }
 }
