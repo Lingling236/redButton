@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-11-03T23:44:44.868</Modified>
+      <Modified>2017-11-16T15:39:18.040</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.UWP\bin\x86\Debug\RedButton_Tablet.UWP.exe">
       <PackagePath>entrypoint\RedButton_Tablet.UWP.exe</PackagePath>
-      <Modified>2017-11-03T23:44:43.746</Modified>
+      <Modified>2017-11-16T15:39:17.509</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ling\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -513,7 +513,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet\bin\Debug\RedButton_Tablet.dll">
       <PackagePath>RedButton_Tablet.dll</PackagePath>
-      <Modified>2017-11-03T23:44:41.639</Modified>
+      <Modified>2017-11-16T15:39:16.025</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -688,7 +688,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.UWP\bin\x86\Debug\Core\RedButton_Tablet.UWP.exe">
       <PackagePath>RedButton_Tablet.UWP.exe</PackagePath>
-      <Modified>2017-11-03T23:44:44.859</Modified>
+      <Modified>2017-11-16T15:39:18.040</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

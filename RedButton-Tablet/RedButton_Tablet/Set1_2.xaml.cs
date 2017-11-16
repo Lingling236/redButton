@@ -30,35 +30,30 @@ namespace RedButton_Tablet
             await Navigation.PushModalAsync(new Set1_3(_generalCondition, _bloodPressure));
         }
 
-        // void Entry_TextChanged(object sender, TextChangedEventArgs e)
+        void Entry_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            var BP = Convert.ToDouble(e.NewTextValue);
+          
+                _bloodPressure = Convert.ToDouble(e.NewTextValue);
+           
+
+            //   MessagingCenter.Send(this, Events.BloodPressure, e.NewTextValue);
+
+        }
+
+        //private void bpressure_Completed(object sender, EventArgs e)
         //{
-        //    var BP = Convert.ToDouble(e.NewTextValue);
-        //     if(BP<80 | BP>120)
+        //    var text = ((Entry)sender).Text;
+        //    var BP = Convert.ToDouble(text);
+        //    if (BP < 80 | BP > 120)
         //    {
         //        DisplayAlert("exceed the range!", "please fill in valid blood pressure", "Ok");
-        //    }else
-        //    {
-        //        _bloodPressure = Convert.ToDouble(e.NewTextValue);
+        //        bpressure.Text = null;
         //    }
-          
-            
-        // //   MessagingCenter.Send(this, Events.BloodPressure, e.NewTextValue);
-
+        //    else
+        //    {
+        //        _bloodPressure = BP;
+        //    }
         //}
-
-        private void bpressure_Completed(object sender, EventArgs e)
-        {
-            var text = ((Entry)sender).Text;
-            var BP = Convert.ToDouble(text);
-            if (BP < 80 | BP > 120)
-            {
-                DisplayAlert("exceed the range!", "please fill in valid blood pressure", "Ok");
-                bpressure.Text = null;
-            }
-            else
-            {
-                _bloodPressure = BP;
-            }
-        }
     }
 }

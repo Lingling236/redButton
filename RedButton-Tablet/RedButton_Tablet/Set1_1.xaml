@@ -6,8 +6,8 @@
         <Label Text="1.General condition"  FontAttributes="Bold" FontSize="Large"/>
         <Editor BackgroundColor="Beige" VerticalOptions="FillAndExpand" TextChanged="Editor_TextChanged"/>
         <StackLayout Orientation="Horizontal" Spacing="40">
-            <Button Text="Cancel" Clicked="Cancel_Clicked"/>
-            <Button Text="Next" Clicked="Next_Clicked"/>
+            <Button Text="Cancel" Clicked="Cancel_Clicked" WidthRequest="120" BorderRadius="20" BackgroundColor="DarkOliveGreen"/>
+            <Button Text="Next" Clicked="Next_Clicked" WidthRequest="120" BorderRadius="20" BackgroundColor="DarkOliveGreen"/>
 
         </StackLayout>
 

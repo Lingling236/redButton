@@ -9,8 +9,8 @@
             <Label Text="bpm" HorizontalOptions="End"/>
         </StackLayout>
         <StackLayout Orientation="Horizontal" Spacing="40">
-            <Button Text="Previous" Clicked="Previous_Clicked"/>
-            <Button Text="Next" Clicked="Next_Clicked"/>
+            <Button Text="Previous" Clicked="Previous_Clicked" WidthRequest="120" BorderRadius="20" BackgroundColor="DarkOliveGreen"/>
+            <Button Text="Next" Clicked="Next_Clicked" WidthRequest="120" BorderRadius="20" BackgroundColor="DarkOliveGreen"/>
 
         </StackLayout>
 

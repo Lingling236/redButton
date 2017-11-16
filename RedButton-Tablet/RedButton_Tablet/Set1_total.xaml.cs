@@ -16,13 +16,19 @@ namespace RedButton_Tablet
 
         public Set1_total(string generalCondition, double bpressure, double heartrate, double breath, double spo2, double bsugar)
         {
-            
-            
-            Set1 set1 = new Set1 { GeneralCondition=generalCondition, BloodPressure=bpressure, HeartRate=heartrate, RespiratoryRate=breath, SpO2=spo2, BloodSugar=bsugar};
+
+
+            BindingContext = new Set1 {
+                GeneralCondition =generalCondition,
+                BloodPressure =bpressure,
+                HeartRate =heartrate,
+                RespiratoryRate =breath,
+                SpO2 =spo2,
+                BloodSugar =bsugar};
             
 
 
-            BindingContext = set1;
+          
             InitializeComponent();
            
            
@@ -36,10 +42,15 @@ namespace RedButton_Tablet
 
         async void Button_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PopModalAsync();
+            await Navigation.PushAsync(new FunctionsPage());
         }
 
         private void Button_Clicked_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button_Clicked_2(object sender, EventArgs e)
         {
 
         }
@@ -57,10 +68,10 @@ namespace RedButton_Tablet
         //    // MessagingCenter.Subscribe<Set1_2, string>(this, Events.BloodPressure, bloodPressure_TextChanged);
         //    bloodPressure.Text = e.NewTextValue.ToString();
         //}
-       // private void BloodPressureValueChanged(Set1_2 source, string newValue)
-       // {
-         //   bloodPressure.Text = newValue;
-             
+        // private void BloodPressureValueChanged(Set1_2 source, string newValue)
+        // {
+        //   bloodPressure.Text = newValue;
+
         //}
     }
 }

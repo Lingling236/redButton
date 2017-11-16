@@ -3,40 +3,35 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="RedButton_Tablet.Set1_total"
              xmlns:local="clr-namespace:RedButton_Tablet">
-    <StackLayout Padding="10,10,0,0">
-        <StackLayout Padding="10,10,0,0">
-            <Label Text="1. General condition" />
-            <Editor x:Name="editor" Text="{Binding GeneralCondition}"/>
-        </StackLayout>
-        <StackLayout Orientation="Horizontal" Padding="10,10,0,0" />
-        <Label Text="2.Blood pressure" />
-        <Entry x:Name="bloodPressure" WidthRequest="100" Text="{Binding BloodPressure}"/>
-        <Label Text="mm Hg"/>
+    <TableView Intent="Menu">
+        <TableRoot>
+            <TableSection Title="General Condition">
+                <EntryCell Text="{Binding GeneralCondition}"/>
+            </TableSection>
+                    <TableSection Title="Parameters">
+                        <EntryCell Label="Blood Pressure" Text="{Binding BloodPressure}"  Keyboard="Numeric"/>
+                        <EntryCell Label="Heartrate" Text="{Binding HeartRate}"  Keyboard="Numeric"/>
+                        <EntryCell Label="Respiratory rate" Text="{Binding RespiratoryRate}"  Keyboard="Numeric"/>
+                        <EntryCell Label="SpO2" Text="{Binding SpO2}"  Keyboard="Numeric"/>
+                        <EntryCell Label="Blood sugar" Text="{Binding BloodSugar}"  Keyboard="Numeric"/>
+                     
+                    </TableSection>
+                    <TableSection>
+                        <ViewCell>
+                    <Button Text="Save"  Clicked="Button_Clicked_2"/>
+                </ViewCell>
+                <ViewCell>
+                    <Button Text="Send"  Clicked="Button_Clicked_1"/>
+                </ViewCell>
+                <ViewCell>
+                    <Button Text="Return" Clicked="Button_Clicked"/>
+                </ViewCell>
+               
+            </TableSection>
+        </TableRoot>
+    </TableView>
 
-        <StackLayout Orientation="Horizontal" Padding="10,10,0,0">
-            <Label Text="3.Heartrate"/>
-            <Entry x:Name="heartrate " WidthRequest="100" Text="{Binding HeartRate}"/>
-            <Label Text="bpm"/>
-        </StackLayout>
-        <StackLayout Orientation="Horizontal" Padding="10,10,0,0">
-            <Label Text="4.Respiratory rate"/>
-            <Entry x:Name="respiratory" WidthRequest="100" Text="{Binding RespiratoryRate}"/>
-            <Label Text="breathes per minute"/>
-        </StackLayout>
-        <StackLayout Orientation="Horizontal" Padding="10,10,0,0">
-            <Label Text="5.SpO2"/>
-            <Entry x:Name="o2 " WidthRequest="100" Text="{Binding SpO2}"/>
-            <Label Text="%"/>
-        </StackLayout>
-        <StackLayout Orientation="Horizontal" Padding="10,10,0,0">
-            <Label Text="6.Blood sugar"/>
-            <Entry x:Name="bsugar" WidthRequest="100" Text="{Binding BloodSugar}"/>
-            <Label Text="mg/dl"/>
-        </StackLayout>
-        <StackLayout  Orientation="Horizontal"    Spacing="150" Padding="10,10,0,0">
-            <Button Text="Return" Clicked="Button_Clicked"/>
-            <Button Text="Send"  Clicked="Button_Clicked_1"/>
-        </StackLayout>
+   
        
-    </StackLayout>
+   
 </ContentPage>
