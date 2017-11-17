@@ -18,13 +18,13 @@
                     </TableSection>
                     <TableSection>
                         <ViewCell>
-                    <Button Text="Save"  Clicked="Button_Clicked_2"/>
+                    <Button Text="Save"  Clicked="SaveButton_Clicked"/>
                 </ViewCell>
                 <ViewCell>
-                    <Button Text="Send"  Clicked="Button_Clicked_1"/>
+                    <Button Text="Send"  Clicked="SendButton_Clicked"/>
                 </ViewCell>
                 <ViewCell>
-                    <Button Text="Return" Clicked="Button_Clicked"/>
+                    <Button Text="Return" Clicked="ReturnButton_Clicked"/>
                 </ViewCell>
                
             </TableSection>
