@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RedButton_Tablet.Set1_6">
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="25">
+        <Label Text="6.Blood sugar" FontAttributes="Bold" FontSize="Large"/>
+        <StackLayout Orientation="Horizontal" Padding="0,20,0,0">
+            <Entry Keyboard="Numeric" WidthRequest="200" TextChanged="Entry_TextChanged"/>
+            <Label Text="mg/dl" HorizontalOptions="End" FontSize="Medium"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" Spacing="40">
+            <Button Text="Previous" 
+                    Clicked="Previous_Clicked"
+                    BackgroundColor="{StaticResource buttonBackgroundColor}"
+                    BorderRadius="{StaticResource borderRadius}"
+                    WidthRequest="{StaticResource widthRequest}"/>
+            <Button Text="Done" 
+                    Clicked="Done_Clicked"
+                    BackgroundColor="{StaticResource buttonBackgroundColor}"
+                    BorderRadius="{StaticResource borderRadius}"
+                    WidthRequest="{StaticResource widthRequest}"/>
+
+        </StackLayout>
+      
+
+    </StackLayout>
+</ContentPage>

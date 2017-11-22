@@ -26,6 +26,8 @@ namespace RedButton_Tablet.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::PCLStorage.Resource.String.ApplicationName = global::RedButton_Tablet.Droid.Resource.String.ApplicationName;
+			global::PCLStorage.Resource.String.Hello = global::RedButton_Tablet.Droid.Resource.String.Hello;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::RedButton_Tablet.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -2936,6 +2938,12 @@ namespace RedButton_Tablet.Droid
 		
 		public partial class String
 		{
+			
+			// aapt resource value: 0x7f080027
+			public const int ApplicationName = 2131230759;
+			
+			// aapt resource value: 0x7f080026
+			public const int Hello = 2131230758;
 			
 			// aapt resource value: 0x7f08000f
 			public const int abc_action_bar_home_description = 2131230735;

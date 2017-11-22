@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+             Padding="10,20,10,0"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RedButton_Tablet.Set1_total"
+             xmlns:local="clr-namespace:RedButton_Tablet">
+    <TableView Intent="Settings" >
+        <TableRoot>
+            <TableSection Title="General Condition" >
+                <EntryCell x:Name="gcEntry" Text="{Binding GeneralCondition}"/>
+            </TableSection>
+                    <TableSection Title="Parameters">
+                        <EntryCell x:Name="bpEntry" Label="Blood Pressure" Text="{Binding BloodPressure}"  Keyboard="Numeric" 
+                                   HorizontalTextAlignment="Center"/>
+                <EntryCell x:Name="hrEntry" Label="Heartrate" Text="{Binding HeartRate}"  Keyboard="Numeric"/>
+                <EntryCell x:Name="rrEntry" Label="Respiratory rate" Text="{Binding RespiratoryRate}"  Keyboard="Numeric"/>
+                <EntryCell x:Name="spEntry" Label="SpO2" Text="{Binding SpO2}"  Keyboard="Numeric"/>
+                <EntryCell x:Name="bsEntry" Label="Blood sugar" Text="{Binding BloodSugar}"  Keyboard="Numeric"/>
+                     
+                    </TableSection>
+                    <TableSection>
+                        <ViewCell>
+                    <Button Text="Save"  Clicked="SaveButton_Clicked"/>
+                </ViewCell>
+                <ViewCell>
+                    <Button Text="Send"  Clicked="SendButton_Clicked"/>
+                </ViewCell>
+                <ViewCell>
+                    <Button Text="Return" Clicked="ReturnButton_Clicked"/>
+                </ViewCell>
+               
+            </TableSection>
+        </TableRoot>
+    </TableView>
+
+   
+       
+   
+</ContentPage>
