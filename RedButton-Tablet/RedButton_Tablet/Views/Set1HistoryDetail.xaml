@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RedButton_Tablet.Views.Set1HistoryDetail">
+    <ContentPage.Content>
+        <StackLayout Padding="10,20,0,0" Spacing="30">
+            <Label x:Name="label" FontSize="Large" BackgroundColor="Bisque"/>
+            <Label Text="{Binding BloodPressure}"/>
+            <Label Text="{Binding HeartRate}"/>
+            <Label Text="{Binding RespiratoryRate}"/>
+            <Label Text="{Binding SpO2}"/>
+            <Label Text="{Binding BloodSugar}"/>
+            <Button Text="Return" Clicked="Button_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

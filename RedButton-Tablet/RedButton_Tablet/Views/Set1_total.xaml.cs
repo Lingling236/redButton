@@ -61,7 +61,7 @@ namespace RedButton_Tablet
           String errorMessage = null;
             try
             {
-                await sass.Save_Value<Set1>(gcEntry.Text, new Set1
+                await sass.Save_Value(gcEntry.Text, new Set1
                 {
                     GeneralCondition = gcEntry.Text,
                     BloodPressure = bp,
@@ -79,13 +79,7 @@ namespace RedButton_Tablet
             if (errorMessage == null)
             {
                 await DisplayAlert("Confirm", "Your data has been saved", "ok");
-                gcEntry.Text = "";
-                bpEntry.Text = "";
-                hrEntry.Text = "";
-                rrEntry.Text = "";
-                spEntry.Text = "";
-                bsEntry.Text = "";
-
+              
 
             }
             else

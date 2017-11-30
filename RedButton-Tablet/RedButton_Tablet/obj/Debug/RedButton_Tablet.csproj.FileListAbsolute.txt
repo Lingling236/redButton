@@ -26,10 +26,12 @@ C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet\ob
 C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet\obj\Debug\RedButton_Tablet.Views.Set1_total.xaml.g.cs
 C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet\obj\Debug\RedButton_Tablet.Views.FunctionsPage.xaml.g.cs
 C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet\obj\Debug\RedButton_Tablet.Views.Set2.xaml.g.cs
-C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet\obj\Debug\RedButton_Tablet.Views.Histroy_ProQA.xaml.g.cs
 C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet\obj\Debug\RedButton_Tablet.Views.ProQAHistoryDetail.xaml.g.cs
 C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet\bin\Debug\PCLStorage.Abstractions.dll
 C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet\bin\Debug\PCLStorage.dll
 C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet\bin\Debug\PCLStorage.xml
 C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet\bin\Debug\PCLStorage.Abstractions.xml
 C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet\obj\Debug\RedButton_Tablet.Views.ViewHistoryPage.xaml.g.cs
+C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet\obj\Debug\RedButton_Tablet.Views.History_ProQA.xaml.g.cs
+C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet\obj\Debug\RedButton_Tablet.History_Set1.xaml.g.cs
+C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet\obj\Debug\RedButton_Tablet.Views.Set1HistoryDetail.xaml.g.cs

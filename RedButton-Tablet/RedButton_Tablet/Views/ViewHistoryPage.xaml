@@ -7,8 +7,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="RedButton_Tablet.ViewHistoryPage">
 
-    <local:Histroy_ProQA Title="Pro QA" />
-     <local:Histroy_ProQA Title="SET 1"/>
+    <local:History_ProQA Title="Pro QA" />
+     <local:History_Set1 Title="SET 1"/>
     
     
   

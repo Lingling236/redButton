@@ -13,12 +13,12 @@ namespace RedButton_Tablet
     public partial class ProQAHistoryDetail : ContentPage
     {
         SaveAndSendPro sasp = new SaveAndSendPro();
-        public ProQAHistoryDetail(string name)
+        public ProQAHistoryDetail(string filename)
         {
             
             InitializeComponent();
-            label.Text = name;
-            editor.Text = sasp.ReadText(name);
+            label.Text = filename;
+            editor.Text = sasp.ReadText(filename);
         }
 
         protected override void OnAppearing()

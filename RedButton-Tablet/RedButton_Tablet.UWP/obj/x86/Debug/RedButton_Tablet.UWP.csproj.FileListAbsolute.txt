@@ -219,3 +219,5 @@ C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.UW
 C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.UWP\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.UWP\bin\x86\Debug\PCLStorage.Abstractions.dll
+C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.UWP\bin\x86\Debug\PCLStorage.dll
