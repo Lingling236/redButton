@@ -49,7 +49,7 @@ namespace RedButton_Tablet
 
             try
             {
-                sasp.WriteText(nameEntry.Text, codeEntry.Text,ageEntry.Text, gengderPicker.ToString());
+                sasp.WriteTextAsync(nameEntry.Text, codeEntry.Text,ageEntry.Text, gengderPicker.ToString());
             }
             catch (Exception exc)
             {

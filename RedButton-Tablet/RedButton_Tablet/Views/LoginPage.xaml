@@ -9,7 +9,7 @@
         <Entry x:Name="Name" Keyboard="Default" />
         <Label  Text="Password: "/>
         <Entry  x:Name="Password" IsPassword="True" />
-        <Button Text="Login" Clicked="Ok_Clicked" WidthRequest="200" BackgroundColor="DarkGoldenrod"/>
+        <Button Text="Login" Clicked="Ok_Clicked" WidthRequest="200" BackgroundColor="DarkGoldenrod" BorderColor="Beige" BorderRadius="30"/>
         <Button Text="Register" Clicked="Cancel_Clicked" WidthRequest="200" BackgroundColor="DarkOrange"/>
     </StackLayout>
 </ContentPage>

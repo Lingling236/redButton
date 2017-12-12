@@ -3,6 +3,8 @@ C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.An
 C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\bin\Debug\RedButton_Tablet.Android.apk
 C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\bin\Debug\RedButton_Tablet.Android-Signed.apk
 C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\bin\Debug\FormsViewGroup.dll
+C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\bin\Debug\PCLStorage.Abstractions.dll
+C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\bin\Debug\PCLStorage.dll
 C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\bin\Debug\RedButton_Tablet.dll
 C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
 C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\bin\Debug\Xamarin.Android.Support.Design.dll
@@ -19,6 +21,8 @@ C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.An
 C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\bin\Debug\RedButton_Tablet.pdb
 C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\bin\Debug\FormsViewGroup.pdb
 C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\bin\Debug\FormsViewGroup.dll.mdb
+C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\bin\Debug\PCLStorage.xml
+C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\bin\Debug\PCLStorage.Abstractions.xml
 C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\bin\Debug\Xamarin.Forms.Core.pdb
 C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\bin\Debug\Xamarin.Forms.Core.xml
 C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
@@ -49,7 +53,3 @@ C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.An
 C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
-C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\bin\Debug\PCLStorage.Abstractions.dll
-C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\bin\Debug\PCLStorage.dll
-C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\bin\Debug\PCLStorage.xml
-C:\Users\Ling\source\repos\RedButton-Tablet\RedButton-Tablet\RedButton_Tablet.Android\bin\Debug\PCLStorage.Abstractions.xml

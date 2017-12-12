@@ -38,6 +38,8 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="FileHelper\ICamera.cs" />
+    <Compile Include="FileHelper\ICameraGallery.cs" />
     <Compile Include="FileHelper\PCLHelper.cs" />
     <Compile Include="FileHelper\SaveAndSendSet1.cs" />
     <Compile Include="History_Set1.xaml.cs">

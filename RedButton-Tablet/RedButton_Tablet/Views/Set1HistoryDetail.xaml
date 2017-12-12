@@ -3,14 +3,34 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="RedButton_Tablet.Views.Set1HistoryDetail">
     <ContentPage.Content>
-        <StackLayout Padding="10,20,0,0" Spacing="30">
+        <StackLayout Padding="10,20,10,0" Spacing="30">
             <Label x:Name="label" FontSize="Large" BackgroundColor="Bisque"/>
-            <Label Text="{Binding BloodPressure}"/>
-            <Label Text="{Binding HeartRate}"/>
-            <Label Text="{Binding RespiratoryRate}"/>
-            <Label Text="{Binding SpO2}"/>
-            <Label Text="{Binding BloodSugar}"/>
-            <Button Text="Return" Clicked="Button_Clicked"/>
+            <StackLayout Orientation="Horizontal" Spacing="20">
+                <Label Text="Blood Presure: "/>
+                <Label Text="{Binding BloodPressure}"/>
+                <Label Text="mm Hg"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Spacing="20">
+                <Label Text="Heart Rate: "/>
+                <Label Text="{Binding HeartRate}"/>
+                <Label Text="bpm"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Spacing="20">
+                <Label Text="Respiratory rate: "/>
+                <Label Text="{Binding RespiratoryRate}"/>
+                <Label Text="times/min"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Spacing="20">
+                <Label Text="SpO2: "/>
+                <Label Text="{Binding SpO2}"/>
+                <Label Text="%"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Spacing="20">
+                <Label Text="Blood Sugar: "/>
+                <Label Text="{Binding BloodSugar}"/>
+                <Label Text="mg/dl"/>
+            </StackLayout>
+        <Button Text="Return" Clicked="Button_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

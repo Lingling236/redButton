@@ -43,9 +43,9 @@ namespace RedButton_Tablet
 
        
 
-        public void WriteText(string filename, string code, string age, string gender)
+        public void WriteTextAsync(string filename, string code, string age, string gender)
         {
-            saveHelper.WriteText(filename, code,age,gender);
+            saveHelper.WriteTextAsync(filename, code,age,gender);
         }
     }
 }

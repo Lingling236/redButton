@@ -85,20 +85,20 @@ namespace RedButton_Tablet.FileHelper
             IFolder folder = await rootFolder.CreateFolderAsync("Set1",
                 CreationCollisionOption.OpenIfExists);
 
-            ExistenceCheckResult isFileExisting = await folder.CheckExistsAsync(filename + ".txt");
+            ExistenceCheckResult isFileExisting = await folder.CheckExistsAsync(filename);
 
             if (!isFileExisting.ToString().Equals("NotFound"))
             {
                 try
                 {
-                    IFile file = await folder.CreateFileAsync(filename + ".txt",
+                    IFile file = await folder.CreateFileAsync(filename,
                     CreationCollisionOption.OpenIfExists);
 
                     await file.DeleteAsync();
                 }
                 catch (Exception ex)
                 {
-                 
+                    var message = ex.Message;
                 }
             }
         }

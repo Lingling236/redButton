@@ -13,21 +13,34 @@
                     <TableSection Title="Parameters">
                         <EntryCell x:Name="bpEntry" Label="Blood Pressure" Text="{Binding BloodPressure}"  Keyboard="Numeric" 
                                    HorizontalTextAlignment="Center"/>
-                <EntryCell x:Name="hrEntry" Label="Heartrate" Text="{Binding HeartRate}"  Keyboard="Numeric"/>
-                <EntryCell x:Name="rrEntry" Label="Respiratory rate" Text="{Binding RespiratoryRate}"  Keyboard="Numeric"/>
-                <EntryCell x:Name="spEntry" Label="SpO2" Text="{Binding SpO2}"  Keyboard="Numeric"/>
-                <EntryCell x:Name="bsEntry" Label="Blood sugar" Text="{Binding BloodSugar}"  Keyboard="Numeric"/>
+                <EntryCell x:Name="hrEntry" Label="Heartrate" Text="{Binding HeartRate}"  Keyboard="Numeric"
+                                   HorizontalTextAlignment="Center"/>
+                <EntryCell x:Name="rrEntry" Label="Respiratory rate" Text="{Binding RespiratoryRate}"  Keyboard="Numeric"
+                                   HorizontalTextAlignment="Center"/>
+                <EntryCell x:Name="spEntry" Label="SpO2" Text="{Binding SpO2}"  Keyboard="Numeric"
+                                   HorizontalTextAlignment="Center"/>
+                <EntryCell x:Name="bsEntry" Label="Blood sugar" Text="{Binding BloodSugar}"  Keyboard="Numeric"
+                                   HorizontalTextAlignment="Center"/>
                      
                     </TableSection>
                     <TableSection>
                         <ViewCell>
-                    <Button Text="Save"  Clicked="SaveButton_Clicked"/>
+                    <Button Text="Save"  Clicked="SaveButton_Clicked"
+                            BackgroundColor="{StaticResource buttonBackgroundColor}"
+                            BorderRadius="{StaticResource borderRadius}"
+                            WidthRequest="{StaticResource widthRequest}"/>
                 </ViewCell>
                 <ViewCell>
-                    <Button Text="Send"  Clicked="SendButton_Clicked"/>
+                    <Button Text="Send"  Clicked="SendButton_Clicked"
+                            BackgroundColor="{StaticResource buttonBackgroundColor}"
+                            BorderRadius="{StaticResource borderRadius}"
+                            WidthRequest="{StaticResource widthRequest}"/>
                 </ViewCell>
                 <ViewCell>
-                    <Button Text="Return" Clicked="ReturnButton_Clicked"/>
+                    <Button Text="Return" Clicked="ReturnButton_Clicked"
+                            BackgroundColor="{StaticResource buttonBackgroundColor}"
+                            BorderRadius="{StaticResource borderRadius}"
+                            WidthRequest="{StaticResource widthRequest}"/>
                 </ViewCell>
                
             </TableSection>

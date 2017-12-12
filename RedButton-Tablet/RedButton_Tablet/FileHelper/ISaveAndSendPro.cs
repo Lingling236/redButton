@@ -10,7 +10,7 @@ namespace RedButton_Tablet
     public interface ISaveAndSendPro
     {
        bool Exists(string filename);
-        void WriteText(string filename, string code,string age,string gender);
+        void WriteTextAsync(string filename, string code,string age,string gender);
         string ReadText(string filename);
         IEnumerable<string> GetFiles();
         void Delete(string filename);

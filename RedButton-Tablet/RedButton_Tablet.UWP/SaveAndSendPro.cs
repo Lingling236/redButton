@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.Storage;
 using Xamarin.Forms;
 
 [assembly: Dependency(typeof(RedButton_Tablet.UWP.SaveAndSendPro))]
@@ -15,10 +16,7 @@ namespace RedButton_Tablet.UWP
             return false;
         }
 
-        public void WriteText(string filename, string text)
-        {
-            throw new NotImplementedException("Writing files is not implemented");
-        }
+       
 
         public string ReadText(string filename)
         {
@@ -34,12 +32,15 @@ namespace RedButton_Tablet.UWP
         {
         }
 
-        public void WriteText(string filename, string code, string age, string gender)
+        public async Task WriteTextAsync(string filename, string code, string age, string gender)
         {
+            StorageFolder localFolder = ApplicationData.Current.LocalFolder;
+            StorageFile ProQAFile = await localFolder.CreateFileAsync(filename, CreationCollisionOption.ReplaceExisting);
+            await FileIO.WriteTextAsync(ProQAFile, code);
             throw new NotImplementedException();
         }
 
-        public string ReadText(string filename, string code, string age, string gender)
+        void ISaveAndSendPro.WriteTextAsync(string filename, string code, string age, string gender)
         {
             throw new NotImplementedException();
         }

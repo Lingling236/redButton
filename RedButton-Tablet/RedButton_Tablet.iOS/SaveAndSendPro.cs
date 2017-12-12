@@ -9,6 +9,7 @@ using Xamarin.Forms;
 using System.IO;
 
 [assembly: Dependency(typeof(RedButton_Tablet.iOS.SaveAndSendPro))]
+
 namespace RedButton_Tablet.iOS
 {
     class SaveAndSendPro :ISaveAndSendPro
@@ -19,7 +20,7 @@ namespace RedButton_Tablet.iOS
             return File.Exists(filepath);
         }
 
-        public void WriteText(string filename, string code, string age, string gender)
+        public void WriteTextAsync(string filename, string code, string age, string gender)
         {
             string filepath = GetFilePath(filename);
 
