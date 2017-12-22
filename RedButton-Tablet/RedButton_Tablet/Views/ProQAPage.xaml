@@ -4,26 +4,33 @@
              x:Class="RedButton_Tablet.ProQAPage">
 
     <ScrollView>
-        
-    
-    <StackLayout   Padding="10,30,0,0">
-        <Label Text="1.Name"/>
-          <Entry  x:Name="nameEntry"/>
-        <Label Text="1.Code" />
-            <Entry  x:Name="codeEntry"/>
-            <Label Text="2.Age" />
+
+
+        <StackLayout   Padding="10,30,0,0">
+            <Label Text="1.Name"/>
+            <Entry  x:Name="nameEntry"/>
+            <Label Text="2.Code" />
+            <Picker x:Name="contentPicker" Title="Select content" SelectedIndexChanged="ContentPicker_SelectedIndexChanged">
+                <Picker.Items>
+                    <x:String>1.Abdominal Pain/Problems</x:String>
+                    <x:String>2.Allergies(reactions)</x:String>
+                    <x:String>3.Animal Bites/Attacks</x:String>
+                </Picker.Items>
+            </Picker>
+            <Picker x:Name="codePicker" Title="Select code"/>
+            <Label Text="3.Age" />
             <Entry x:Name="ageEntry" Keyboard="Numeric"/>
-            <Label Text="3.Gender" />
-        <Picker x:Name="gengderPicker">
-            <Picker.Items>
-                <x:String>Male</x:String>
-                <x:String>Female</x:String>
-            </Picker.Items>
-        </Picker>
-        <Button Text="Save" Clicked="Save_Clicked" WidthRequest="200" BorderRadius="50"  BackgroundColor="Bisque"/>
-        <Button Text="Send" Clicked="Send_Clicked" WidthRequest="200" BorderRadius="50"  BackgroundColor="Bisque"/>
-        <Button Text="Cancel" Clicked="Cancel_Clicked" WidthRequest="200" BorderColor="AliceBlue" BorderRadius="50"  BackgroundColor="Bisque"/>
-        
-    </StackLayout>
+            <Label Text="4.Gender" />
+            <Picker x:Name="gengderPicker">
+                <Picker.Items>
+                    <x:String>Male</x:String>
+                    <x:String>Female</x:String>
+                </Picker.Items>
+            </Picker>
+            <Button Text="Save" Clicked="Save_Clicked" WidthRequest="200" BorderRadius="50"  BackgroundColor="Bisque"/>
+            <Button Text="Send" Clicked="Send_Clicked" WidthRequest="200" BorderRadius="50"  BackgroundColor="Bisque"/>
+            <Button Text="Cancel" Clicked="Cancel_Clicked" WidthRequest="200" BorderColor="AliceBlue" BorderRadius="50"  BackgroundColor="Bisque"/>
+
+        </StackLayout>
     </ScrollView>
 </ContentPage>

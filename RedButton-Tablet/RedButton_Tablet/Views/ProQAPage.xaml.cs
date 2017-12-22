@@ -40,16 +40,20 @@ namespace RedButton_Tablet
                 if (!okResponse)
                     return;
             }
-            if(string.IsNullOrWhiteSpace(name)|| String.IsNullOrWhiteSpace(codeEntry.Text)|| string.IsNullOrWhiteSpace(ageEntry.Text)|| gengderPicker.SelectedIndex<0)
-            
+            if (string.IsNullOrWhiteSpace(name) || contentPicker.SelectedIndex == -1 || codePicker.SelectedIndex == -1 || string.IsNullOrWhiteSpace(ageEntry.Text) || gengderPicker.SelectedIndex == -1)
+
                 await DisplayAlert("Lack of information", "please fill up all the fields", "ok");
-              
+
 
             string errorMessage = null;
+            string content = contentPicker.Items[contentPicker.SelectedIndex];
+            string code = codePicker.Items[codePicker.SelectedIndex];
+            string gender = gengderPicker.Items[gengderPicker.SelectedIndex];
+            string proQA = content + " " + code;
 
             try
             {
-                sasp.WriteTextAsync(nameEntry.Text, codeEntry.Text,ageEntry.Text, gengderPicker.ToString());
+                sasp.WriteTextAsync(nameEntry.Text, proQA, ageEntry.Text, gender);
             }
             catch (Exception exc)
             {
@@ -60,10 +64,11 @@ namespace RedButton_Tablet
             {
                 await DisplayAlert("Confirm", "Your data has been saved", "ok");
                 nameEntry.Text = "";
-                codeEntry.Text = "";
+                contentPicker.SelectedIndex = -1;
+                codePicker.SelectedIndex = -1;
                 ageEntry.Text = "";
                 gengderPicker.SelectedIndex = -1;
-               
+
             }
             else
             {
@@ -71,7 +76,44 @@ namespace RedButton_Tablet
             }
         }
 
-       
+        private void ContentPicker_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var picker = (Picker)sender;
+            int selectedIndex = picker.SelectedIndex;
+            if (selectedIndex != -1)
+            {
+                switch (selectedIndex)
+                {
+                    case 0:
+                        {
+                            foreach (string code in ProQA.AbdominalPain)
+                            {
+                                codePicker.Items.Add(code);
+                            }
+                            break;
+                        }
+                    case 1:
+                        {
+                            foreach (string code in ProQA.Allergies)
+                            {
+                                codePicker.Items.Add(code);
+                            }
+                            break;
+                        }
+                    case 2:
+                        {
+                            foreach (string code in ProQA.AnimalBites)
+                            {
+                                codePicker.Items.Add(code);
+                            }
+                            break;
+                        }
 
+                }
+
+
+
+            }
+        }
     }
 }

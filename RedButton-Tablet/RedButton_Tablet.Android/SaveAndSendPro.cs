@@ -16,7 +16,7 @@ namespace RedButton_Tablet.Droid
             return File.Exists(filepath);
         }
 
-        public void WriteTextAsync(string filename, string code,string age,string gender)
+        public void WriteTextAsync(string filename, string code, string age, string gender)
         {
             string filepath = GetFilePath(filename);
 
